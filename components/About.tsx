@@ -23,18 +23,6 @@ export default function About() {
                 ))}
 
             </div>
-
-            {/* <main className="container mx-auto px-4 py-8">
-                <h1 className="text-4xl font-bold text-center mb-8">About TechNova Solutions</h1>
-
-                <section className="bg-blue-600 text-white rounded-lg p-6 text-center">
-                    <h2 className="text-2xl font-semibold mb-4">Ready to Transform Your Business?</h2>
-                    <p className="mb-4">Contact us today to discuss how we can help you achieve your goals.</p>
-                    <button className="bg-white text-blue-600 px-6 py-2 rounded-full font-semibold hover:bg-blue-100 transition duration-300">
-                        Contact Us
-                    </button>
-                </section>
-            </main> */}
         </section >
     );
 }

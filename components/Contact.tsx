@@ -69,8 +69,8 @@ const Contact = () => {
     };
 
     return (
-        <section id="contact" className="min-h-screen px-10">
-            <div className="w-full md:max-w-7xl flex flex-col min-h-screen px-6 py-12 mx-auto">
+        <section id="contact" className="min-h-screen px-1 md:px-10">
+            <div className="w-full md:max-w-7xl flex flex-col min-h-screen px-2.5 md:px-6 py-12 mx-auto">
                 <div className="flex-1 lg:flex lg:items-center lg:-mx-6">
                     <div className="text-white lg:w-1/2 lg:mx-6">
                         <h1 className="text-2xl font-semibold capitalize lg:text-3xl">Get in Touch</h1>
@@ -143,7 +143,7 @@ const Contact = () => {
                     </div>
 
                     <div className="mt-8 lg:w-1/2 lg:mx-6">
-                        <div className="w-full px-8 py-10 mx-auto overflow-hidden bg-gray-800 shadow-2xl rounded-xl dark:bg-gray-900 lg:max-w-xl">
+                        <div className="w-full px-3.5 md:px-8 py-10 mx-auto overflow-hidden bg-gray-800 shadow-2xl rounded-xl dark:bg-gray-900 lg:max-w-xl">
                             <h1 className="text-xl font-medium text-gray-300 dark:text-gray-200">Contact form</h1>
 
                             <form onSubmit={handleSubmit} className="mt-4">

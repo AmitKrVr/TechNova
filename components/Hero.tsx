@@ -9,7 +9,7 @@ export function Hero() {
     const scrollY = useScrollPosition();
 
     return (
-        <section id="home" className="min-h-screen w-full relative flex flex-col items-center justify-center antialiased">
+        <section id="home" className="min-h-[30rem] pt-20 md:pt-0 md:min-h-screen w-full relative flex flex-col items-center justify-center antialiased">
             <Navbar scrollY={scrollY} />
             <div className="flex flex-col h-full items-center justify-center antialiased">
                 <h1 className="relative z-10 max-w-5xl text-xl md:text-7xl px-3 md:px-0 bg-clip-text text-transparent bg-gradient-to-b from-cyan-200 to-cyan-600  text-center font-sans font-bold mb-7">
